@@ -1,0 +1,43 @@
+#container {
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:960px;
+	width:960px;
+	padding: 0;
+	border: none;
+}
+
+#instructions {
+    position: relative;
+    top: 15px;
+    font-family:"Helvetica";
+    text-align: center;
+
+}
+
+#content {
+    display: inline-block; text-align: left;
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+
+body 
+{
+    background:rgb(255, 255, 255);
+}
+
+button
+{
+    font-family: "Helvetica";
+    font-size: 15px;
+    background:rgb(204, 204, 204);
+}
